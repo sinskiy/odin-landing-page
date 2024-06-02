@@ -8,13 +8,18 @@
 
 body,
 h1,
-p {
+p,
+blockquote {
   margin: 0;
 }
 
 img {
   width: 100%;
   height: auto;
+}
+
+cite {
+  font-style: normal;
 }
 
 .text-primary {
@@ -32,12 +37,21 @@ img {
   font-weight: 900;
 }
 
-a,
-.text-secondary {
-  color: #e5e7eb;
+blockquote p {
+  color: #1f2937;
 
-  font-size: 18px;
-  text-decoration: none;
+  font-size: 36px;
+  font-weight: 300;
+  font-style: italic;
+}
+
+blockquote footer {
+  color: black;
+
+  font-size: 24px;
+  font-weight: bold;
+
+  text-align: end;
 }
 
 .text-label {
@@ -45,6 +59,14 @@ a,
 
   font-size: 24px;
   font-weight: bold;
+}
+
+a,
+.text-secondary {
+  color: #e5e7eb;
+
+  font-size: 18px;
+  text-decoration: none;
 }
 
 button {
