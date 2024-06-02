@@ -38,3 +38,32 @@ header,
 #hero img {
   border-radius: 16px;
 }
+
+#list {
+  text-align: center;
+  padding-top: 3rem;
+  padding-bottom: 6rem;
+
+  background-color: white;
+}
+
+#list > ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#list img {
+  padding: 64px;
+
+  color: #3882f6;
+
+  border-radius: 32px;
+  border: 6px currentColor solid;
+}
+
+#list figcaption {
+  padding-top: 4px;
+
+  font-size: 20px;
+}

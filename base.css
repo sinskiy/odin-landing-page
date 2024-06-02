@@ -2,6 +2,10 @@
   font-family: "Roboto", sans-serif;
 }
 
+* {
+  box-sizing: border-box;
+}
+
 body,
 h1,
 p {
@@ -19,6 +23,13 @@ img {
   font-size: 48px;
   font-weight: 900;
   text-wrap: pretty;
+}
+
+.text-primary--variation {
+  color: #1f2937;
+
+  font-size: 36px;
+  font-weight: 900;
 }
 
 a,
@@ -47,4 +58,8 @@ button {
 
   font-size: 20px;
   font-weight: 600;
+}
+
+ul {
+  list-style: none;
 }
