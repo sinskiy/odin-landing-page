@@ -73,3 +73,42 @@ header,
 
   padding: 8rem 28%;
 }
+
+#sign-up {
+  margin: 5rem 20%;
+  padding: 3rem 8rem;
+
+  background-color: #3882f6;
+  color: white;
+
+  border-radius: 16px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#sign-up h2 {
+  margin-bottom: 2px;
+}
+
+#sign-up p {
+  color: #e5e7eb;
+}
+
+#sign-up button {
+  border: 2px white solid;
+}
+
+body > footer {
+  background-color: #1f2937;
+  color: white;
+
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+
+  font-size: 22px;
+
+  display: flex;
+  justify-content: center;
+}

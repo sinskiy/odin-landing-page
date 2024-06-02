@@ -6,8 +6,13 @@
   box-sizing: border-box;
 }
 
+body {
+  background-color: white;
+}
+
 body,
 h1,
+h2,
 p,
 blockquote {
   margin: 0;
